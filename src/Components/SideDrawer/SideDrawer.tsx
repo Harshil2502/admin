@@ -38,7 +38,6 @@ import Avatar from "@mui/material/Avatar";
 import AppBar from "../AppBar/AppBar";
 import adminImg from "../../Assets/Images/admin-Logo.png";
 import { Link } from "react-router-dom";
-import { Backdrop } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import BackdropSearch from "../Backdrop/BackdropSearch";
 const drawerWidth = 240;
@@ -67,7 +66,8 @@ const closedMixin = (theme: Theme): CSSObject => ({
 export const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
   alignItems: "center",
-  justifyContent: "flex-end",
+  justifyContent: "center",
+  position: "relative",
   padding: theme.spacing(0, 1),
   // necessary for content to be below app bar
   ...theme.mixins.toolbar,
@@ -228,16 +228,25 @@ export default function SideDrawer() {
       >
         <DrawerHeader>
           <img src={adminImg} alt="" height="75%" width="50%" />
-
-          <IconButton onClick={handleDrawerClose}>
-            {theme.direction === "rtl" ? (
-              <ChevronRightIcon />
-            ) : (
-              <Box ml={2}>
-                <ChevronLeftIcon />
-              </Box>
-            )}
-          </IconButton>
+          <Box position="absolute" right="0">
+            <IconButton onClick={handleDrawerClose}>
+              {theme.direction === "rtl" ? (
+                <ChevronRightIcon />
+              ) : (
+                <Box
+                  bgcolor="primary.main"
+                  height={"35px"}
+                  width={"15px"}
+                  display="flex"
+                  alignItems="center"
+                  justifyContent="center"
+                  borderRadius={"8px 0px 0px  8px"}
+                >
+                  <ChevronLeftIcon sx={{ color: "#fefefe  " }} />
+                </Box>
+              )}
+            </IconButton>
+          </Box>
         </DrawerHeader>
         <Divider />
         <List sx={{ mt: 2 }}>

@@ -29,64 +29,280 @@ const rows = [
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
     "Apr 27,2023",
     "$3987.00",
-    <Chip label="paid" color="primary" variant="outlined" />,
-    <Chip label="unfilled" color="primary" variant="outlined" />
+    <Chip
+      label="paid"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />,
+    <Chip
+      label="unfilled"
+      sx={{
+        fontSize: {
+          lg: 16,
+          md: 14,
+          sm: 12,
+          xs: 10,
+        },
+      }}
+      color="primary"
+      variant="outlined"
+    />
   ),
   createData(
     "Jenny wilson",
